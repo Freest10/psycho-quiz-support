@@ -8,7 +8,7 @@ const botNumber = 2; // Увеличивать на 1 для последующ�
 const renderProjectUrl = 'https://psycho-quiz-support.onrender.com'; // Указать урл проекта на render
 
 const app = express();
-const webhookUrl = `https://${renderProjectUrl}/bot${botNumber}/${token}`;
+const webhookUrl = `${renderProjectUrl}/bot${botNumber}/${token}`;
 
 
 // const webhookUrl = `https://${process.env.RENDER_EXTERNAL_URL}/bot${token}`;
